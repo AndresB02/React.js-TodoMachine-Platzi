@@ -1,9 +1,8 @@
-import { TodoCounter } from './TodoCounter';
-import { TodoSearch } from './TodoSearch';
-import { TodoList } from './TodoList';
-import { TodoItem } from './TodoItem';
-import { CreateTodoButton } from './CreateTodoButtom';
-import './App.css';
+import { TodoCounter } from './componenetes/TodoCounter/TodoCounter';
+import { TodoSearch } from './componenetes/TodoSearch/TodoSearch';
+import { TodoList } from './componenetes/TodoList/TodoList';
+import { TodoItem } from './componenetes/TodoItem/TodoItem';
+import { CreateTodoButton } from './componenetes/CreateTodoButtom/CreateTodoButtom';
 import React from 'react';
 
 const defaultTodos = [
@@ -16,9 +15,9 @@ const defaultTodos = [
 
 function App() {
   return (
-    <React.Fragment className="App">
-
-      <TodoCounter completed={16} total={25} />
+    //se puede borrar el React.Fragment y solo dejar los signos de meno y mayor que
+    <>
+      <TodoCounter completed={3} total={5} />
       <TodoSearch/>
 
       <TodoList>
@@ -33,7 +32,7 @@ function App() {
 
       <CreateTodoButton />
 
-    </React.Fragment>
+    </>
   );
 }
 
