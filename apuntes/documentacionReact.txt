@@ -1,0 +1,10 @@
+🔵Documentación oficial de React
+Comparto el enlace de la documentación oficial de React, que hace poco fue publicada oficialmente.
+
+https://react.dev/
+
+🔵También existe la documentación en español, aunque en el momento de este aporte, aún falta por traducir páginas.
+https://es.react.dev/
+
+Y como complemento al curso, te dejo una serie de videos de React por Midudev.
+Curso de React 2023 por midudev
