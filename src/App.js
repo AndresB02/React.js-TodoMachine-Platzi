@@ -14,7 +14,6 @@ const defaultTodos = [
   { text: 'Completar curso de Vtex', completed: true}
 ]
 
-
 function App() {
   return (
     <React.Fragment className="App">
