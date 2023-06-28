@@ -2,11 +2,11 @@
     background:#f9fbfc;
     border-radius:2px;
     border:2px solid #202329;
-    margin:0 24px;
-    height:64px;
-    width:calc(100% - 62px);
+    margin:0 5px;
+    height:40px;
+    width:calc(100% - 15px);
     font-size:24px;
-    text-align:center;
+    text-align:justify;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:400;
     color:#1e1e1f;

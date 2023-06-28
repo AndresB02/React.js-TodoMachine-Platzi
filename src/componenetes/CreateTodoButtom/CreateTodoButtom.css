@@ -5,9 +5,9 @@
     border-radius: 50%;
     cursor: pointer;
     font-size: 50px;
-    position: fixed;
+    position: relative;
     bottom: 24px;
-    right: 930px;
+    right: -130px;
     font-weight: bold;
     color: #fafafa;
     display: flex;

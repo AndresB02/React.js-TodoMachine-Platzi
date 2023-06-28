@@ -14,11 +14,17 @@ const defaultTodos = [
 ]
 
 function App() {
+  const [searchValue, setSearchValue] = React.useState ('');
+
+  console.log('los usuarios buscand to-dos de ' + searchValue)
   return (
     //se puede borrar el React.Fragment y solo dejar los signos de meno y mayor que
     <>
       <TodoCounter completed={3} total={5} />
-      <TodoSearch/>
+      <TodoSearch
+        searchValue={searchValue}
+        setSearchValue={setSearchValue}
+      />
 
       <TodoList>
         {defaultTodos.map(todo => (
